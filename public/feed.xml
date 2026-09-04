@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Zen of Market — MARCO Executive Recaps</title>
+  <id>https://zenofmarket.github.io/</id>
+  <link href="https://zenofmarket.github.io/feed.xml" rel="self" />
+  <link href="https://zenofmarket.github.io/" />
+  <updated>2026-09-03T21:00:00Z</updated>
+  <entry>
+    <title>The Hawkish Trade Blinked. Duration Didn't Fully Confirm.</title>
+    <id>https://zenofmarket.github.io/recaps/2026-09-03/</id>
+    <link href="https://zenofmarket.github.io/recaps/2026-09-03/" />
+    <updated>2026-09-03T21:00:00Z</updated>
+    <summary>An extended rate-hike trade unwound as the yen surged and broad risk leadership rotated, while duration left a key confirmation gap.</summary>
+  </entry>
+  <entry>
+    <title>Labor Cooled. The Real Test Is Friday.</title>
+    <id>https://zenofmarket.github.io/recaps/2026-09-02/</id>
+    <link href="https://zenofmarket.github.io/recaps/2026-09-02/" />
+    <updated>2026-09-02T21:00:00Z</updated>
+    <summary>Softer private employment data eased Treasury pressure, but official payrolls remain the confirmation test.</summary>
+  </entry>
+  <entry>
+    <title>Yields Broke Higher. Bond Volatility Didn't.</title>
+    <id>https://zenofmarket.github.io/recaps/2026-09-01/</id>
+    <link href="https://zenofmarket.github.io/recaps/2026-09-01/" />
+    <updated>2026-09-01T21:00:00Z</updated>
+    <summary>Global yields rose while contained bond volatility and broad participation signaled absorption rather than disorder.</summary>
+  </entry>
+</feed>
