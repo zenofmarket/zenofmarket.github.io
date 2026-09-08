@@ -21,11 +21,11 @@
       <nav class="shell-links" aria-label="Site navigation"><a href="/">LATEST</a><a href="/archive/" aria-current="page">ARCHIVE</a><a class="support-link" href="/support/">SUPPORT</a></nav>
     </header>
     <main class="shell-main">
-      <p class="eyebrow">Executive market intelligence · Daily archive</p>
+      <p class="eyebrow">Executive market summary · Daily archive</p>
       <h1>MARKET RECAP ARCHIVE</h1>
-      <p class="intro">Explore previous market recaps for a clear view of the forces moving markets, the signals that mattered and the catalysts ahead.</p>
+      <p class="intro">Review past recaps, key signals, and catalysts.</p>
 
-      <section class="archive-grid" aria-label="Published market recaps">
+      <section class="archive-grid" id="archive-grid" aria-label="Published market recaps">
         <a class="recap-card latest" href="/recaps/2026-09-04/">
           <time datetime="2026-09-04">SEP 4, 2026</time>
           <h2>Rates Rose. Semiconductors Refused the Script.</h2>
@@ -56,9 +56,14 @@
         </a>
       </section>
 
-      <aside class="shell-note"><p>Start with the latest recap for the most current view of market drivers, positioning and upcoming catalysts.</p><a href="/">VIEW LATEST EDITION →</a></aside>
-      <footer class="shell-footer"><span>ZEN OF MARKET · MARCO EXECUTIVE RECAP</span><span>For informational purposes only; not investment advice.</span></footer>
+      <div class="archive-load-more" data-archive-load-more hidden>
+        <button type="button" aria-controls="archive-grid">LOAD MORE RECAPS</button>
+      </div>
+
+      <div class="disclaimer">All views expressed are for informational purposes only and do not constitute financial or investment advices.</div>
+      <div class="poster-bottom"><span></span><div class="footer-brand"><img src="/assets/brand/zom-logo.png" alt="" />ZEN OF MARKET</div><span></span></div>
     </main>
   </div>
+  <script src="/archive/archive.js"></script>
 </body>
 </html>
