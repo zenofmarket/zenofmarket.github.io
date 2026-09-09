@@ -143,6 +143,8 @@ main{width:100%}.poster{position:relative;isolation:isolate;width:min(100%,1440p
 @media(max-width:580px){
   .site-nav .brand-lockup span{display:none}
   .site-nav{gap:8px;padding-left:9px;padding-right:9px}
+  .site-nav>.support-link{width:36px;padding:0;gap:0}
+  .site-nav>.support-link span:nth-child(2){display:none}
   .edition-picker{width:126px}
   .edition-picker summary{grid-template-columns:1fr 8px;gap:7px;padding-inline:8px}
   .edition-step{width:29px}
