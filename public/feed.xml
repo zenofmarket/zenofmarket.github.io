@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Zen of Market MARCO Executive Recaps</title>
+  <title>Zen of Market Executive Recaps and Thesis</title>
   <id>https://zenofmarket.github.io/</id>
   <link href="https://zenofmarket.github.io/feed.xml" rel="self" />
   <link href="https://zenofmarket.github.io/" />
-  <updated>2026-09-11T21:00:00Z</updated>
+  <updated>2026-09-14T09:00:00Z</updated>
+  <entry>
+    <title>The September FOMC: Who Is Really Controlling the Fed?</title>
+    <id>https://zenofmarket.github.io/thesis/september-fomc-who-controls-the-fed/</id>
+    <link href="https://zenofmarket.github.io/thesis/september-fomc-who-controls-the-fed/" />
+    <updated>2026-09-14T09:00:00Z</updated>
+    <category term="Zen Thesis" />
+    <summary>Oil, fiscal pressure, election incentives and the global bond market collide with the Fed's reaction function.</summary>
+  </entry>
   <entry>
     <title>CPI Was Hawkish. Stocks Rallied Anyway.</title>
     <id>https://zenofmarket.github.io/recaps/2026-09-11/</id>

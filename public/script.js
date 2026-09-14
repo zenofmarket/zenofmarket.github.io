@@ -11,7 +11,7 @@ reveals.forEach((el) => revealObserver.observe(el));
 
 const sections = [...document.querySelectorAll('.poster')];
 const railLinks = [...document.querySelectorAll('.section-rail a')];
-const navLinks = [...document.querySelectorAll('.site-nav nav a')];
+const navLinks = [...document.querySelectorAll('.section-nav a')];
 const sectionObserver = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (!entry.isIntersecting) return;

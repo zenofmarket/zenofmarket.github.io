@@ -45,12 +45,10 @@
       <img src="/assets/brand/zom-logo.png" alt="Zen of Market" />
       <span>ZEN OF MARKET</span>
     </a>
-    <nav aria-label="Recap sections">
-      <a href="#hook">HOOK</a>
-      <a href="#rotation">ROTATION</a>
-      <a href="#main">DRIVERS</a>
-      <a href="#why">WHY IT MATTERS</a>
-      <a href="#closing">CLOSING</a>
+    <nav class="global-nav" aria-label="Site navigation">
+      <a href="/">DAILY TAPE</a>
+      <a href="/thesis/">THESIS</a>
+      <a href="/archive/" aria-current="page">ARCHIVE TAPE</a>
     </nav>
     <div class="edition-nav" aria-label="Recap date navigation">
       <a class="edition-step" href="/recaps/2026-09-02/" aria-label="Previous recap: September 2, 2026" title="Previous recap">‹</a>
@@ -91,7 +89,12 @@
       <a class="edition-step" href="/recaps/2026-09-04/" aria-label="Next recap: September 4, 2026" title="Next recap">›</a>
     </div>
     <a class="support-link" href="/support/" aria-label="Support Zen of Market"><span aria-hidden="true">♥</span><span>SUPPORT</span></a>
+    <details class="mobile-site-menu">
+      <summary aria-label="Open site menu">MENU</summary>
+      <nav aria-label="Mobile site navigation"><a href="/">DAILY TAPE</a><a href="/thesis/">THESIS</a><a href="/archive/" aria-current="page">ARCHIVE TAPE</a><a href="#hook">HOOK</a><a href="#rotation">ROTATION</a><a href="#main">DRIVERS</a><a href="#why">WHY IT MATTERS</a><a href="#closing">CLOSING</a></nav>
+    </details>
   </header>
+  <nav class="section-nav" aria-label="Recap sections"><a href="#hook">HOOK</a><a href="#rotation">ROTATION</a><a href="#main">DRIVERS</a><a href="#why">WHY IT MATTERS</a><a href="#closing">CLOSING</a></nav>
 
   <main>
     <!-- =========================================================
@@ -461,6 +464,7 @@
   </div>
 
   <button class="back-top" aria-label="Back to top">↑</button>
+  <script src="/site-nav.js"></script>
   <script src="/script.js"></script>
 </body>
 </html>

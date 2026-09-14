@@ -18,7 +18,9 @@
   <div class="shell">
     <header class="shell-nav">
       <a class="shell-brand" href="/" aria-label="Zen of Market latest recap"><img src="/assets/brand/zom-logo.png" alt="" /><span>ZEN OF MARKET</span></a>
-      <nav class="shell-links" aria-label="Site navigation"><a href="/">LATEST</a><a href="/archive/" aria-current="page">ARCHIVE</a><a class="support-link" href="/support/">SUPPORT</a></nav>
+      <nav class="shell-links" aria-label="Site navigation"><a href="/">DAILY TAPE</a><a href="/thesis/">THESIS</a><a href="/archive/" aria-current="page">ARCHIVE TAPE</a><a class="support-link" href="/support/">SUPPORT</a></nav>
+      <a class="shell-support-mobile" href="/support/" aria-label="Support Zen of Market">♥</a>
+      <details class="shell-menu"><summary>MENU</summary><nav aria-label="Mobile site navigation"><a href="/">DAILY TAPE</a><a href="/thesis/">THESIS</a><a href="/archive/" aria-current="page">ARCHIVE TAPE</a><a href="/support/">♥ SUPPORT</a></nav></details>
     </header>
     <main class="shell-main">
       <p class="eyebrow">Executive market summary · Daily archive</p>
@@ -88,10 +90,26 @@
         <button type="button" aria-controls="archive-grid">LOAD MORE RECAPS</button>
       </div>
 
+      <section class="comparison-section thesis-promo" aria-labelledby="thesis-promo-heading">
+        <div class="comparison-heading">
+          <p class="eyebrow">Long-form analysis</p>
+          <h2 id="thesis-promo-heading">ZEN THESIS</h2>
+          <p>The deeper argument behind the tape, with observable mechanisms, confirmation tests and falsifiers.</p>
+        </div>
+        <a class="recap-card comparison-card" href="/thesis/september-fomc-who-controls-the-fed/">
+          <time datetime="2026-09-14">SEP 14, 2026</time>
+          <h2>The September FOMC: Who Is Really Controlling the Fed?</h2>
+          <p>Oil, fiscal pressure, election incentives and the global bond market collide with the Fed's reaction function.</p>
+          <div class="signals"><span>Oil</span><span>Fed credibility</span><span>Bond pressure</span></div>
+          <b>Read the thesis →</b>
+        </a>
+      </section>
+
       <div class="disclaimer">All views expressed are for informational purposes only and do not constitute financial or investment advices.</div>
       <div class="poster-bottom"><span></span><div class="footer-brand"><img src="/assets/brand/zom-logo.png" alt="" />ZEN OF MARKET</div><span></span></div>
     </main>
   </div>
   <script src="/archive/archive.js"></script>
+  <script src="/site-nav.js"></script>
 </body>
 </html>
