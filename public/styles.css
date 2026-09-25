@@ -358,9 +358,7 @@ body{font-size:var(--type-body)}
   .catalyst-grid{grid-template-columns:1fr}.catalyst-grid article{min-height:160px}
   .decision-head{grid-template-columns:1fr}.decision-head b{transform:rotate(90deg)}.decision-paths{grid-template-columns:1fr}.decision-paths>i{margin:2px 0}
 }
-\n\n/* ==============================================================
-   V1.8 · Market recap + market rotation + agent handoff standard
-   ============================================================== */
+/* Market recap and rotation */
 .poster-rotation{background:linear-gradient(180deg,var(--paper) 0%,#f8f7f2 100%)}
 .rotation-head{max-width:1180px;margin-top:54px}
 .heatmap-frame{margin:30px 0 0;border:1px solid var(--line-strong);border-radius:var(--radius);overflow:hidden;background:#1f252b;box-shadow:var(--shadow);position:relative;z-index:2}
