@@ -75,6 +75,9 @@ svg{display:block;width:1em;height:1em;fill:none;stroke:currentColor;stroke-widt
 .edition-menu-head strong{font-family:var(--headline);font-size:19px;color:var(--navy)}
 .edition-menu-head a{font-size:9px;font-weight:700;letter-spacing:.1em;color:var(--green);text-decoration:none}
 .edition-menu>p{margin:13px 2px 7px;font-size:9px;font-weight:700;letter-spacing:.18em;color:var(--muted)}
+.edition-list{max-height:308px;max-height:min(308px,calc(100dvh - 190px));overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;scrollbar-width:thin;scrollbar-color:var(--line-strong) transparent}
+.edition-list::-webkit-scrollbar{width:6px}.edition-list::-webkit-scrollbar-track{background:transparent}.edition-list::-webkit-scrollbar-thumb{border-radius:999px;background:var(--line-strong)}
+.edition-list .edition-option{height:40px}
 .edition-option{display:grid;grid-template-columns:1fr auto;gap:11px;align-items:center;margin-top:4px;padding:12px;border:1px solid transparent;border-radius:6px;color:var(--ink);text-decoration:none;transition:.16s}
 .edition-option:hover{border-color:var(--line);background:#fff}
 .edition-option.active{border-color:#c7d7d1;background:var(--green-soft)}
