@@ -1,0 +1,99 @@
+.interactive-chart {
+  touch-action: pan-y;
+  cursor: crosshair;
+}
+
+.interactive-chart .hover-point {
+  fill: #fff;
+  stroke-width: 1.5;
+  opacity: 0;
+  transition: opacity 120ms ease;
+  pointer-events: none;
+}
+
+.interactive-chart.ten .hover-point {
+  stroke: var(--red);
+}
+
+.interactive-chart.thirty .hover-point {
+  stroke: var(--navy);
+}
+
+.interactive-chart.oil .hover-point {
+  stroke: var(--gold);
+}
+
+.interactive-chart .crosshair {
+  stroke: #6f7e84;
+  stroke-width: 1;
+  stroke-dasharray: 3 3;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.interactive-chart .active-point {
+  fill: #fff;
+  stroke: var(--navy);
+  stroke-width: 3;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.interactive-chart.is-active .hover-point,
+.interactive-chart.is-active .crosshair,
+.interactive-chart.is-active .active-point {
+  opacity: 1;
+}
+
+.chart-wrap.has-interactive-chart {
+  position: relative;
+}
+
+.chart-tooltip {
+  position: absolute;
+  z-index: 3;
+  min-width: 92px;
+  padding: 8px 10px;
+  border: 1px solid rgba(13, 45, 66, .18);
+  border-radius: 4px;
+  background: rgba(248, 247, 242, .97);
+  box-shadow: 0 6px 18px rgba(13, 45, 66, .13);
+  color: var(--navy);
+  font-family: var(--sans);
+  line-height: 1.2;
+  opacity: 0;
+  transform: translateY(-50%);
+  transition: opacity 120ms ease;
+  pointer-events: none;
+}
+
+.chart-tooltip.is-visible {
+  opacity: 1;
+}
+
+.chart-tooltip time {
+  display: block;
+  margin-bottom: 3px;
+  color: var(--muted);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.chart-tooltip strong {
+  display: block;
+  font: 700 14px var(--sans);
+}
+
+.interactive-chart:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 4px;
+}
+
+@media (max-width: 640px) {
+  .chart-tooltip {
+    min-width: 82px;
+    padding: 6px 8px;
+  }
+}
