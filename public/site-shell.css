@@ -66,6 +66,7 @@ h1{max-width:900px;margin:18px 0 0;color:var(--navy);font:600 clamp(48px,7vw,82p
 .comparison-card::before{background:var(--gold)}
 .comparison-card b{color:#7c6034}
 .thesis-promo{margin-top:64px}
+.thesis-promo-grid{display:grid;gap:16px}
 .thesis-promo .comparison-card{border-color:#29435a;background:linear-gradient(135deg,#10273b,#18314b 65%,#215341);color:#fff}
 .thesis-promo .comparison-card::before{background:#d0b174}
 .thesis-promo .comparison-card time{color:#abc4bb}
